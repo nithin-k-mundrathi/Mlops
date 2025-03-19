@@ -1,0 +1,6 @@
+# will identify packages and run setup.py automatically
+pip install -e .
+
+# test the test files -test_custom_exception.py and test_logger.py
+
+# 
