@@ -3,4 +3,7 @@ pip install -e .
 
 # test the test files -test_custom_exception.py and test_logger.py
 
+# service accounts gives you restricted access  of ur accounts.
+
 # 
+python src/data_ingestion.py
