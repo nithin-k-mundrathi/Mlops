@@ -1,8 +1,8 @@
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "sa-gcp-key.json"
 from google.cloud import storage
-import pandas as pd
-from sklearn.model_selection import train_test_split
+import pandas as pd # type: ignore
+from sklearn.model_selection import train_test_split # type: ignore
 from src.logger import get_logger
 from src.custom_exception import CustomException
 from config.paths_config import *

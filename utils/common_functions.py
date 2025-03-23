@@ -1,8 +1,8 @@
 import os
-import pandas as pd
+import pandas as pd # type: ignore
 from src.logger import get_logger
 from src.custom_exception import CustomException
-import yaml
+import yaml # type: ignore
 
 logger = get_logger(__name__)
 

@@ -7,3 +7,6 @@ pip install -e .
 
 # 
 python src/data_ingestion.py
+
+# run this to initialize mlflow ui
+mlflow ui
